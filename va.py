@@ -54,7 +54,7 @@ with SB(uc=True, test=True,locale=f"{language_code.upper()}") as yt2yweydr:
             yt2yweydr2.sleep(1)
         yt2yweydr.quit_extra_driver()
     yt2yweydr.sleep(1)
-    url = "https://www.twitch.tv/streamerhouse"
+    url = "https://www.twitch.tv/brutalles"
     yt2yweydr.uc_open_with_reconnect(url, 5)
     yt2yweydr.sleep(14)
     if yt2yweydr.is_element_present("#live-channel-stream-information"):
